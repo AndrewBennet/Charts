@@ -12,7 +12,7 @@ let package = Package(
     products: [
         .library(
             name: "UIKitCharts",
-            targets: ["Charts"]),
+            targets: ["UIKitCharts"]),
         .library(
             name: "UIKitChartsDynamic",
             type: .dynamic,
