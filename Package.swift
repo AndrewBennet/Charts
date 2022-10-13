@@ -26,7 +26,7 @@ let package = Package(
         .target(
             name: "UIKitCharts",
             dependencies: [.product(name: "Algorithms", package: "swift-algorithms")],
-            path: "Charts"
+            path: "Source"
         )
     ],
     swiftLanguageVersions: [.v5]
